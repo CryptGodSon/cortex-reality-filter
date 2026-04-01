@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cortex Omnitool</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+        :root {
+            --bg-color: #050505;
+            --mesh-grad: radial-gradient(circle at 80% 20%, rgba(0, 255, 204, 0.1) 0%, transparent 60%), radial-gradient(circle at 20% 80%, rgba(0, 150, 255, 0.08) 0%, transparent 50%);
+            --text-main: #f0f0f0;
+            --text-muted: #888;
+            --panel-bg: rgba(20, 20, 20, 0.6);
+            --panel-border: rgba(255, 255, 255, 0.08);
+            --btn-bg: rgba(0, 255, 204, 0.05);
+            --btn-border: rgba(0, 255, 204, 0.2);
+            --btn-hover: rgba(0, 255, 204, 0.15);
+            --accent: #00ffcc;
+            --glow: 0 0 15px rgba(0, 255, 204, 0.3);
+
+            --cat-bg: rgba(255, 255, 255, 0.03);
+            --slider-track: #222;
+        }
+
+        body.light-theme {
+            --bg-color: #f7f7f9;
+            --mesh-grad: radial-gradient(circle at 80% 20%, rgba(0, 230, 180, 0.2) 0%, transparent 60%), radial-gradient(circle at 20% 80%, rgba(0, 150, 255, 0.15) 0%, transparent 50%);
+            --text-main: #111;
+            --text-muted: #666;
+            --panel-bg: rgba(255, 255, 255, 0.8);
+            --panel-border: rgba(0, 0, 0, 0.05);
+            --btn-bg: rgba(0, 200, 150, 0.08);
+            --btn-border: rgba(0, 200, 150, 0.3);
+            --btn-hover: rgba(0, 200, 150, 0.15);
+            --accent: #00c896;
+            --glow: 0 4px 12px rgba(0, 200, 150, 0.2);
+            --cat-bg: rgba(0, 0, 0, 0.03);
+            --slider-track: #ddd;
+        }
+
+        body {
+            width: 360px;
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            background-image: var(--mesh-grad);
+            color: var(--text-main);
+            padding: 20px;
+            margin: 0;
+            transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+            overflow: hidden;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .logo-mark {
+            width: 20px;
+            height: 20px;
+            background: var(--accent);
+            border-radius: 4px;
+            box-shadow: var(--glow);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .logo-mark::after {
+            content: '';
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            right: 4px;
+            bottom: 4px;
+            background: var(--bg-color);
+            border-radius: 2px;
+            transition: all 0.4s;
+        }
+
+        .title {
+            font-weight: 800;
+            font-size: 16px;
+            letter-spacing: 0.8px;
+            text-shadow: 0 0 8px rgba(0, 255, 204, 0.2);
+        }
+
+        .theme-toggle {
+            cursor: pointer;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: var(--panel-bg);
+            border: 1px solid var(--panel-border);
+            color: var(--text-main);
+            transition: all 0.3s;
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+        }
+
+        .theme-toggle:hover {
+            transform: rotate(15deg) scale(1.05);
+            border-color: var(--accent);
+            box-shadow: var(--glow);
+        }
+
+        .category-container {
+            background: var(--cat-bg);
+            border: 1px solid var(--panel-border);
+            border-radius: 12px;
+            padding: 12px;
+            margin-bottom: 12px;
+            backdrop-filter: blur(4px);
+        }
+
+        .section-title {
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 8px;
+        }
+
+        .cx-btn {
+            background: var(--btn-bg);
+            color: var(--text-main);
+            border: 1px solid var(--btn-border);
+            padding: 10px 8px;
+            border-radius: 8px;
+            font-size: 11px;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+        }
+
+        .cx-btn:hover {
+            background: var(--btn-hover);
+            border-color: var(--accent);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15), var(--glow);
+        }
+
+        .cx-btn:active {
+            transform: translateY(1px);
+        }
+
+        .btn-icon {
+            font-size: 16px;
+            margin-bottom: 2px;
+        }
+
+        /* Controls Slider & Toggle */
+        .control-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 12px;
+        }
+
+        .control-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-main);
+        }
+
+        input[type=range] {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 140px;
+            background: transparent;
+        }
+
+        input[type=range]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            height: 16px;
+            width: 16px;
+            border-radius: 50%;
+            background: var(--accent);
+            cursor: pointer;
+            margin-top: -6px;
+            box-shadow: var(--glow);
+        }
+
+        input[type=range]::-webkit-slider-runnable-track {
+            width: 100%;
+            height: 4px;
+            cursor: pointer;
+            background: var(--slider-track);
+            border-radius: 2px;
+        }
+
+        /* Toggle Switch */
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 36px;
+            height: 20px;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: var(--slider-track);
+            transition: .4s;
+            border-radius: 34px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 14px;
+            width: 14px;
+            left: 3px;
+            bottom: 3px;
+            background-color: var(--text-main);
+            transition: .4s;
+            border-radius: 50%;
+        }
+
+        input:checked+.slider {
+            background-color: var(--accent);
+            box-shadow: var(--glow);
+        }
+
+        input:checked+.slider:before {
+            transform: translateX(16px);
+            background-color: var(--bg-color);
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 10px;
+            font-weight: 500;
+            text-align: center;
+            color: var(--text-muted);
+            letter-spacing: 0.5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .usage-hint {
+            color: var(--accent);
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="brand">
+            <div class="logo-mark"></div>
+            <div class="title">CORTEX AI</div>
+        </div>
+        <div class="theme-toggle" id="theme-btn" title="Zmień motyw">
+            <svg id="theme-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+        </div>
+    </div>
+
+    <!-- WERYFIKACJA -->
+    <div class="category-container">
+        <div class="section-title" data-i18n="verificationHeader"><span>🔍</span> Weryfikacja (CogSec)</div>
+        <div class="grid-3">
+            <button class="cx-btn" data-mode="truth_fake">
+                <span class="btn-icon">⚖️</span>
+                <span data-i18n="btnTruthFake">Truth/Fake</span>
+            </button>
+            <button class="cx-btn" data-mode="fallacies">
+                <span class="btn-icon">🧠</span>
+                <span data-i18n="btnFallacies">Błędy Logiczne</span>
+            </button>
+            <button class="cx-btn" data-mode="ai_scan">
+                <span class="btn-icon">🤖</span>
+                <span data-i18n="btnAiScan">Skaner AI</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- PRZETWARZANIE -->
+    <div class="category-container">
+        <div class="section-title" data-i18n="processingHeader"><span>⚡</span> Przetwarzanie (TL;DR)</div>
+        <div class="grid-3">
+            <button class="cx-btn" data-mode="tldr">
+                <span class="btn-icon">🗡️</span>
+                <span data-i18n="btnTldr">Anty Clickbait</span>
+            </button>
+            <button class="cx-btn" data-mode="quotes">
+                <span class="btn-icon">💬</span>
+                <span data-i18n="btnQuotes">Cytaty</span>
+            </button>
+            <button class="cx-btn" data-mode="polarization">
+                <span class="btn-icon">☢️</span>
+                <span data-i18n="btnPolarization">Oś Polaryzacji</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- SYSTEM CONTROL -->
+    <div class="category-container">
+        <div class="section-title" data-i18n="systemControlHeader"><span>⚙️</span> System Control</div>
+        <div class="control-row">
+            <div class="control-label" data-i18n="labelStrictMode">AI Strict Mode (1-10)</div>
+            <input type="range" id="strict-slider" min="1" max="10" value="5">
+            <span id="strict-val" style="font-size: 11px; font-weight:700; color:var(--accent);">5</span>
+        </div>
+        <div class="control-row" style="margin-top: 16px;">
+            <div class="control-label" data-i18n="labelFocusMode">Focus Mode (Zaciemnienie Tła)</div>
+            <label class="switch">
+                <input type="checkbox" id="focus-toggle">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div class="control-row" style="margin-top: 16px;">
+            <div class="control-label" data-i18n="labelAutoScan">Auto Scan (Przy wejściu)</div>
+            <label class="switch">
+                <input type="checkbox" id="auto-scan-toggle">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </div>
+
+    <div class="footer">
+        <span class="usage-hint" data-i18n="footerHint">Zaznacz tekst na stronie przed kliknięciem.</span>
+        <span>v1.0</span>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>

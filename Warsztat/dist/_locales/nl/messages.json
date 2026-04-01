@@ -1,0 +1,128 @@
+{
+    "extName": {
+        "message": "Cortex Realiteit Filter"
+    },
+    "extDescription": {
+        "message": "Uw CogSec-laag."
+    },
+    "menuTitle": {
+        "message": "Cortex Menu"
+    },
+    "verificationHeader": {
+        "message": "🔍 Verificatie"
+    },
+    "btnTruthFake": {
+        "message": "Waarheid/Nep"
+    },
+    "btnFallacies": {
+        "message": "Logische Fouten"
+    },
+    "btnAiScan": {
+        "message": "AI Scanner"
+    },
+    "processingHeader": {
+        "message": "⚡ Verwerking"
+    },
+    "btnTldr": {
+        "message": "Anti-Clickbait"
+    },
+    "btnQuotes": {
+        "message": "Citaten"
+    },
+    "btnPolarization": {
+        "message": "Polarisatie-as"
+    },
+    "systemControlHeader": {
+        "message": "⚙️ Systeem"
+    },
+    "labelStrictMode": {
+        "message": "AI Strikte Modus"
+    },
+    "labelFocusMode": {
+        "message": "Focus Modus"
+    },
+    "labelAutoScan": {
+        "message": "Auto Scan"
+    },
+    "footerHint": {
+        "message": "Selecteer tekst op de pagina."
+    },
+    "errNoText": {
+        "message": "Geen tekst gevonden!"
+    },
+    "overlayLoading": {
+        "message": "Neurale Scan..."
+    },
+    "errConnection": {
+        "message": "Verbindingsfout."
+    },
+    "modeTruthFake": {
+        "message": "Waarheid/Nep Scan"
+    },
+    "modeFallacies": {
+        "message": "Logische Fouten"
+    },
+    "modeAiScan": {
+        "message": "AI Scanner"
+    },
+    "modeTldr": {
+        "message": "TL;DR"
+    },
+    "modeQuotes": {
+        "message": "Data"
+    },
+    "modePolarization": {
+        "message": "Polarisatie"
+    },
+    "labelTruth": {
+        "message": "WAAR"
+    },
+    "labelFake": {
+        "message": "NEP"
+    },
+    "labelHuman": {
+        "message": "MENS"
+    },
+    "labelSynthetic": {
+        "message": "AI"
+    },
+    "labelObjective": {
+        "message": "OBJECTIEF"
+    },
+    "labelPolarized": {
+        "message": "GEPOLARISEERD"
+    },
+    "labelBasis": {
+        "message": "Basis:"
+    },
+    "labelConsensus": {
+        "message": "Bron"
+    },
+    "tooltipUpvote": {
+        "message": "Voor"
+    },
+    "tooltipDownvote": {
+        "message": "Tegen"
+    },
+    "sysPromptTruthFake": {
+        "message": "You are a CogSec analyst."
+    },
+    "sysPromptFallacies": {
+        "message": "You are a cognitive bias analyst."
+    },
+    "sysPromptAiScan": {
+        "message": "You are an AI detector."
+    },
+    "sysPromptTldr": {
+        "message": "You are a brutal editor."
+    },
+    "sysPromptQuotes": {
+        "message": "You are a hard data extractor."
+    },
+    "sysPromptPolarization": {
+        "message": "You are a polarization researcher."
+    },
+    "sysPromptStrictMode": {
+        "message": " STRICT MODE ACTIVE."
+    }
+}

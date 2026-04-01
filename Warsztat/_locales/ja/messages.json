@@ -1,0 +1,128 @@
+{
+    "extName": {
+        "message": "Cortex リアリティフィルター"
+    },
+    "extDescription": {
+        "message": "Cognitive Security レイヤー"
+    },
+    "menuTitle": {
+        "message": "Cortex メニュー"
+    },
+    "verificationHeader": {
+        "message": "🔍 検証 (CogSec)"
+    },
+    "btnTruthFake": {
+        "message": "真実/フェイク"
+    },
+    "btnFallacies": {
+        "message": "論理的誤謬"
+    },
+    "btnAiScan": {
+        "message": "AIスキャナー"
+    },
+    "processingHeader": {
+        "message": "⚡ 処理 (TL;DR)"
+    },
+    "btnTldr": {
+        "message": "アンチクリックベイト"
+    },
+    "btnQuotes": {
+        "message": "引用"
+    },
+    "btnPolarization": {
+        "message": "二極化の軸"
+    },
+    "systemControlHeader": {
+        "message": "⚙️ システム制御"
+    },
+    "labelStrictMode": {
+        "message": "AI 厳格モード"
+    },
+    "labelFocusMode": {
+        "message": "フォーカスモード"
+    },
+    "labelAutoScan": {
+        "message": "自動スキャン"
+    },
+    "footerHint": {
+        "message": "クリックする前にテキストを選択してください。"
+    },
+    "errNoText": {
+        "message": "テキストが見つかりません！"
+    },
+    "overlayLoading": {
+        "message": "ニュートラルスキャン中..."
+    },
+    "errConnection": {
+        "message": "接続エラーです。"
+    },
+    "modeTruthFake": {
+        "message": "真実/フェイク スキャン"
+    },
+    "modeFallacies": {
+        "message": "論理的誤謬"
+    },
+    "modeAiScan": {
+        "message": "AIスキャナー"
+    },
+    "modeTldr": {
+        "message": "TL;DR"
+    },
+    "modeQuotes": {
+        "message": "データ抽出"
+    },
+    "modePolarization": {
+        "message": "二極化評価"
+    },
+    "labelTruth": {
+        "message": "真実"
+    },
+    "labelFake": {
+        "message": "フェイク"
+    },
+    "labelHuman": {
+        "message": "人間"
+    },
+    "labelSynthetic": {
+        "message": "AI"
+    },
+    "labelObjective": {
+        "message": "客観的"
+    },
+    "labelPolarized": {
+        "message": "二極化"
+    },
+    "labelBasis": {
+        "message": "根拠:"
+    },
+    "labelConsensus": {
+        "message": "外部ソースの信頼性"
+    },
+    "tooltipUpvote": {
+        "message": "支持するソース"
+    },
+    "tooltipDownvote": {
+        "message": "反論するソース"
+    },
+    "sysPromptTruthFake": {
+        "message": "You are a CogSec analyst."
+    },
+    "sysPromptFallacies": {
+        "message": "You are a cognitive bias analyst."
+    },
+    "sysPromptAiScan": {
+        "message": "You are an AI detector."
+    },
+    "sysPromptTldr": {
+        "message": "You are a brutal editor."
+    },
+    "sysPromptQuotes": {
+        "message": "You are a hard data extractor."
+    },
+    "sysPromptPolarization": {
+        "message": "You are a polarization researcher."
+    },
+    "sysPromptStrictMode": {
+        "message": " STRICT MODE ACTIVE."
+    }
+}

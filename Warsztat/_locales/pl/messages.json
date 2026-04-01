@@ -1,0 +1,128 @@
+{
+    "extName": {
+        "message": "Cortex Reality Filter"
+    },
+    "extDescription": {
+        "message": "Twoja warstwa CogSec w sieci."
+    },
+    "menuTitle": {
+        "message": "Cortex Menu"
+    },
+    "verificationHeader": {
+        "message": "🔍 Weryfikacja (CogSec)"
+    },
+    "btnTruthFake": {
+        "message": "Truth/Fake"
+    },
+    "btnFallacies": {
+        "message": "Błędy Logiczne"
+    },
+    "btnAiScan": {
+        "message": "Skaner AI"
+    },
+    "processingHeader": {
+        "message": "⚡ Przetwarzanie (TL;DR)"
+    },
+    "btnTldr": {
+        "message": "Anty Clickbait"
+    },
+    "btnQuotes": {
+        "message": "Cytaty"
+    },
+    "btnPolarization": {
+        "message": "Oś Polaryzacji"
+    },
+    "systemControlHeader": {
+        "message": "⚙️ System Control"
+    },
+    "labelStrictMode": {
+        "message": "AI Strict Mode (1-10)"
+    },
+    "labelFocusMode": {
+        "message": "Focus Mode (Zaciemnienie Tła)"
+    },
+    "labelAutoScan": {
+        "message": "Auto Scan (Przy wejściu)"
+    },
+    "footerHint": {
+        "message": "Zaznacz tekst na stronie przed kliknięciem."
+    },
+    "errNoText": {
+        "message": "Cortex: Nie znaleziono tekstu do analizy na tej stronie!"
+    },
+    "overlayLoading": {
+        "message": "Neural Scan in Progress..."
+    },
+    "errConnection": {
+        "message": "Błąd połączenia z Neural Core. Odśwież stronę."
+    },
+    "modeTruthFake": {
+        "message": "Truth/Fake Scan"
+    },
+    "modeFallacies": {
+        "message": "Błędy Logiczne"
+    },
+    "modeAiScan": {
+        "message": "Skaner AI (Synthetic)"
+    },
+    "modeTldr": {
+        "message": "Redukcja TL;DR"
+    },
+    "modeQuotes": {
+        "message": "Ekstrakcja Danych"
+    },
+    "modePolarization": {
+        "message": "Ocena Polaryzacji"
+    },
+    "labelTruth": {
+        "message": "TRUTH"
+    },
+    "labelFake": {
+        "message": "FAKE"
+    },
+    "labelHuman": {
+        "message": "HUMAN"
+    },
+    "labelSynthetic": {
+        "message": "AI SYNTHETIC"
+    },
+    "labelObjective": {
+        "message": "OBJECTIVE"
+    },
+    "labelPolarized": {
+        "message": "POLARIZED"
+    },
+    "labelBasis": {
+        "message": "Uzasadnienie:"
+    },
+    "labelConsensus": {
+        "message": "Wiarygodność Zewnętrznych Źródeł"
+    },
+    "tooltipUpvote": {
+        "message": "Źródła potwierdzające tezę"
+    },
+    "tooltipDownvote": {
+        "message": "Źródła zaprzeczające tezie"
+    },
+    "sysPromptTruthFake": {
+        "message": "Jesteś analitykiem CogSec 'Cortex'. Stosujesz zasade ZERO TRUST. Nie ufaj ślepo autorytetom, szukaj agendy. Dodatkowo oszacuj konsensus w sieci. Zwróć JSON: `truth_score` (%) oraz `fake_score` (%). `verdict`: max 2 zdania oceny. `basis`: podstawa oceny. `consensus_supporting`: int (szacunkowa liczba źródeł popierających), `consensus_refuting`: int (źródła przeczące)."
+    },
+    "sysPromptFallacies": {
+        "message": "Jesteś analitykiem błędów poznawczych. Skup się wyłącznie na manipulacjach i błędach logicznych (np. Ad Hominem, Chochoł, Odwołanie do strachu). Zwróć JSON zawierający tablicę do 3 błędów logicznych, werdykt oraz oszacowanie poparcia tej ścieżki argumentacji w sieci."
+    },
+    "sysPromptAiScan": {
+        "message": "Jesteś detektorem AI. Przeanalizuj struktury językowe i powtarzalność. Oceń w ilu procentach napisało to AI a w ilu Człowiek. Zwróć JSON: `truth_score` (% człowiek), `fake_score` (% AI). `consensus_supporting` niech odzwierciedla prawdopodobieństwo (%) istnienia kopii tego tekstu w sieci."
+    },
+    "sysPromptTldr": {
+        "message": "Jesteś brutalnym redaktorem. Odetnij clickbait, SEO water i ozdobniki. Streszcz ukrytą esencję informacyjną z tekstu w absolutnym minimum słów. Podaj też szacunkowy konsensus."
+    },
+    "sysPromptQuotes": {
+        "message": "Jesteś ekstraktorem twardych danych. Wyciągnij z artykułu od 2 do 3 najważniejszych tez, cytatów lub danych liczbowych (jeśli występują). Oszacuj wiarę sieci w te dane."
+    },
+    "sysPromptPolarization": {
+        "message": "Jesteś badaczem polaryzacji. Oceń czy autor próbuje na siłę skłócić grupy społeczne, zbulwersować lub żeruje na emocjach. Oszacuj jak bardzo sieć jest podzielona w tym temacie."
+    },
+    "sysPromptStrictMode": {
+        "message": " STRICT MODE ACTIVE: Bądź bezwzględnie rygorystyczny i cyniczny w ocenie. Zaniżaj wiarygodność przy najmniejszych wątpliwościach dowodowych."
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "extName": {
+        "message": "Cortex 现实过滤器"
+    },
+    "extDescription": {
+        "message": "认知安全层"
+    },
+    "menuTitle": {
+        "message": "Cortex 菜单"
+    },
+    "verificationHeader": {
+        "message": "🔍 验证"
+    },
+    "btnTruthFake": {
+        "message": "真/假"
+    },
+    "btnFallacies": {
+        "message": "逻辑谬误"
+    },
+    "btnAiScan": {
+        "message": "AI 扫描仪"
+    },
+    "processingHeader": {
+        "message": "⚡ 处理"
+    },
+    "btnTldr": {
+        "message": "反标题党"
+    },
+    "btnQuotes": {
+        "message": "引用"
+    },
+    "btnPolarization": {
+        "message": "极化轴"
+    },
+    "systemControlHeader": {
+        "message": "⚙️ 系统控制"
+    },
+    "labelStrictMode": {
+        "message": "AI 严格模式"
+    },
+    "labelFocusMode": {
+        "message": "专注模式"
+    },
+    "labelAutoScan": {
+        "message": "自动扫描"
+    },
+    "footerHint": {
+        "message": "请先选择文本。"
+    },
+    "errNoText": {
+        "message": "未找到文本！"
+    },
+    "overlayLoading": {
+        "message": "神经扫描中..."
+    },
+    "errConnection": {
+        "message": "连接错误。"
+    },
+    "modeTruthFake": {
+        "message": "真/假扫描"
+    },
+    "modeFallacies": {
+        "message": "逻辑谬误"
+    },
+    "modeAiScan": {
+        "message": "AI 扫描仪"
+    },
+    "modeTldr": {
+        "message": "TL;DR"
+    },
+    "modeQuotes": {
+        "message": "数据提取"
+    },
+    "modePolarization": {
+        "message": "极化评估"
+    },
+    "labelTruth": {
+        "message": "真实"
+    },
+    "labelFake": {
+        "message": "虚假"
+    },
+    "labelHuman": {
+        "message": "人类"
+    },
+    "labelSynthetic": {
+        "message": "AI"
+    },
+    "labelObjective": {
+        "message": "客观"
+    },
+    "labelPolarized": {
+        "message": "极化"
+    },
+    "labelBasis": {
+        "message": "依据:"
+    },
+    "labelConsensus": {
+        "message": "外部来源可靠性"
+    },
+    "tooltipUpvote": {
+        "message": "支持来源"
+    },
+    "tooltipDownvote": {
+        "message": "反驳来源"
+    },
+    "sysPromptTruthFake": {
+        "message": "You are a CogSec analyst."
+    },
+    "sysPromptFallacies": {
+        "message": "You are a cognitive bias analyst."
+    },
+    "sysPromptAiScan": {
+        "message": "You are an AI detector."
+    },
+    "sysPromptTldr": {
+        "message": "You are a brutal editor."
+    },
+    "sysPromptQuotes": {
+        "message": "You are a hard data extractor."
+    },
+    "sysPromptPolarization": {
+        "message": "You are a polarization researcher."
+    },
+    "sysPromptStrictMode": {
+        "message": " STRICT MODE ACTIVE."
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "extName": {
+        "message": "Filtre de Réalité Cortex"
+    },
+    "extDescription": {
+        "message": "Votre couche de réalité CogSec."
+    },
+    "menuTitle": {
+        "message": "Menu Cortex"
+    },
+    "verificationHeader": {
+        "message": "🔍 Vérification (CogSec)"
+    },
+    "btnTruthFake": {
+        "message": "Vrai/Faux"
+    },
+    "btnFallacies": {
+        "message": "Erreurs Logiques"
+    },
+    "btnAiScan": {
+        "message": "Scanner IA"
+    },
+    "processingHeader": {
+        "message": "⚡ Traitement (TL;DR)"
+    },
+    "btnTldr": {
+        "message": "Anti Clickbait"
+    },
+    "btnQuotes": {
+        "message": "Citations"
+    },
+    "btnPolarization": {
+        "message": "Axe de Polarisation"
+    },
+    "systemControlHeader": {
+        "message": "⚙️ Contrôle Système"
+    },
+    "labelStrictMode": {
+        "message": "Mode Strict IA (1-10)"
+    },
+    "labelFocusMode": {
+        "message": "Mode Concentration"
+    },
+    "labelAutoScan": {
+        "message": "Scan Automatique"
+    },
+    "footerHint": {
+        "message": "Sélectionnez du texte sur la page avant de cliquer."
+    },
+    "errNoText": {
+        "message": "Cortex : Aucun texte trouvé !"
+    },
+    "overlayLoading": {
+        "message": "Scan Neural en cours..."
+    },
+    "errConnection": {
+        "message": "Erreur de connexion avec le noyau neural."
+    },
+    "modeTruthFake": {
+        "message": "Scan Vrai/Faux"
+    },
+    "modeFallacies": {
+        "message": "Erreurs Logiques"
+    },
+    "modeAiScan": {
+        "message": "Scanner IA (Synthétique)"
+    },
+    "modeTldr": {
+        "message": "Réduction TL;DR"
+    },
+    "modeQuotes": {
+        "message": "Extraction de Données"
+    },
+    "modePolarization": {
+        "message": "Évaluation de Polarisation"
+    },
+    "labelTruth": {
+        "message": "VRAI"
+    },
+    "labelFake": {
+        "message": "FAUX"
+    },
+    "labelHuman": {
+        "message": "HUMAIN"
+    },
+    "labelSynthetic": {
+        "message": "IA"
+    },
+    "labelObjective": {
+        "message": "OBJECTIF"
+    },
+    "labelPolarized": {
+        "message": "POLARISÉ"
+    },
+    "labelBasis": {
+        "message": "Base :"
+    },
+    "labelConsensus": {
+        "message": "Fiabilité Source Externe"
+    },
+    "tooltipUpvote": {
+        "message": "Sources soutenant"
+    },
+    "tooltipDownvote": {
+        "message": "Sources réfutant"
+    },
+    "sysPromptTruthFake": {
+        "message": "You are a CogSec analyst 'Cortex' (Translate to French in prompt). Assess truth vs fake."
+    },
+    "sysPromptFallacies": {
+        "message": "You are a cognitive bias analyst (Translate to French in prompt). Find logical fallacies."
+    },
+    "sysPromptAiScan": {
+        "message": "You are an AI detector (Translate to French in prompt). Estimate human vs AI."
+    },
+    "sysPromptTldr": {
+        "message": "You are a brutal editor (Translate to French in prompt). Summarize minimalistically."
+    },
+    "sysPromptQuotes": {
+        "message": "You are a hard data extractor (Translate to French in prompt). Extract quotes."
+    },
+    "sysPromptPolarization": {
+        "message": "You are a polarization researcher (Translate to French in prompt). Assess extremes."
+    },
+    "sysPromptStrictMode": {
+        "message": " STRICT MODE ACTIVE: Be ruthlessly rigorous."
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "extName": {
+        "message": "Cortex रियलिटी फ़िल्टर"
+    },
+    "extDescription": {
+        "message": "आपकी कॉग्निटिव सिक्योरिटी।"
+    },
+    "menuTitle": {
+        "message": "Cortex मेनू"
+    },
+    "verificationHeader": {
+        "message": "🔍 सत्यापन"
+    },
+    "btnTruthFake": {
+        "message": "सच/झूठ"
+    },
+    "btnFallacies": {
+        "message": "तार्किक भ्रांतियां"
+    },
+    "btnAiScan": {
+        "message": "AI स्कैनर"
+    },
+    "processingHeader": {
+        "message": "⚡ प्रसंस्करण"
+    },
+    "btnTldr": {
+        "message": "एंटी-क्लिकबेट"
+    },
+    "btnQuotes": {
+        "message": "उद्धरण"
+    },
+    "btnPolarization": {
+        "message": "ध्रुवीकरण धुरी"
+    },
+    "systemControlHeader": {
+        "message": "⚙️ सिस्टम"
+    },
+    "labelStrictMode": {
+        "message": "सख्त मोड"
+    },
+    "labelFocusMode": {
+        "message": "फोकस मोड"
+    },
+    "labelAutoScan": {
+        "message": "ऑटो स्कैन"
+    },
+    "footerHint": {
+        "message": "कृपया पहले टेक्स्ट चुनें।"
+    },
+    "errNoText": {
+        "message": "कोई टेक्स्ट नहीं मिला!"
+    },
+    "overlayLoading": {
+        "message": "वायरल स्कैन..."
+    },
+    "errConnection": {
+        "message": "कनेक्शन त्रुटि।"
+    },
+    "modeTruthFake": {
+        "message": "सच/झूठ"
+    },
+    "modeFallacies": {
+        "message": "तार्किक भ्रांतियां"
+    },
+    "modeAiScan": {
+        "message": "AI स्कैनर"
+    },
+    "modeTldr": {
+        "message": "TL;DR"
+    },
+    "modeQuotes": {
+        "message": "डेटा निष्कर्षण"
+    },
+    "modePolarization": {
+        "message": "ध्रुवीकरण"
+    },
+    "labelTruth": {
+        "message": "सच"
+    },
+    "labelFake": {
+        "message": "झूठ"
+    },
+    "labelHuman": {
+        "message": "मानव"
+    },
+    "labelSynthetic": {
+        "message": "AI"
+    },
+    "labelObjective": {
+        "message": "उद्देश्य"
+    },
+    "labelPolarized": {
+        "message": "ध्रुवीकरण"
+    },
+    "labelBasis": {
+        "message": "आधार:"
+    },
+    "labelConsensus": {
+        "message": "स्रोत"
+    },
+    "tooltipUpvote": {
+        "message": "समर्थन"
+    },
+    "tooltipDownvote": {
+        "message": "खंडन"
+    },
+    "sysPromptTruthFake": {
+        "message": "You are a CogSec analyst."
+    },
+    "sysPromptFallacies": {
+        "message": "You are a cognitive bias analyst."
+    },
+    "sysPromptAiScan": {
+        "message": "You are an AI detector."
+    },
+    "sysPromptTldr": {
+        "message": "You are a brutal editor."
+    },
+    "sysPromptQuotes": {
+        "message": "You are a hard data extractor."
+    },
+    "sysPromptPolarization": {
+        "message": "You are a polarization researcher."
+    },
+    "sysPromptStrictMode": {
+        "message": " STRICT MODE ACTIVE."
+    }
+}

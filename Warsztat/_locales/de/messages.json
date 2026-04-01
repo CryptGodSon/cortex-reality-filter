@@ -1,0 +1,128 @@
+{
+    "extName": {
+        "message": "Cortex Realitätsfilter"
+    },
+    "extDescription": {
+        "message": "Ihre CogSec-Ebene."
+    },
+    "menuTitle": {
+        "message": "Cortex-Menü"
+    },
+    "verificationHeader": {
+        "message": "🔍 Verifizierung (CogSec)"
+    },
+    "btnTruthFake": {
+        "message": "Wahrheit/Fake"
+    },
+    "btnFallacies": {
+        "message": "Logische Fehler"
+    },
+    "btnAiScan": {
+        "message": "KI-Scanner"
+    },
+    "processingHeader": {
+        "message": "⚡ Verarbeitung (TL;DR)"
+    },
+    "btnTldr": {
+        "message": "Anti-Clickbait"
+    },
+    "btnQuotes": {
+        "message": "Zitate"
+    },
+    "btnPolarization": {
+        "message": "Polarisationsachse"
+    },
+    "systemControlHeader": {
+        "message": "⚙️ Systemsteuerung"
+    },
+    "labelStrictMode": {
+        "message": "KI-Strikter Modus (1-10)"
+    },
+    "labelFocusMode": {
+        "message": "Fokus-Modus"
+    },
+    "labelAutoScan": {
+        "message": "Automatischer Scan"
+    },
+    "footerHint": {
+        "message": "Wählen Sie Text auf der Seite aus, bevor Sie klicken."
+    },
+    "errNoText": {
+        "message": "Cortex: Kein Text gefunden!"
+    },
+    "overlayLoading": {
+        "message": "Neuronaler Scan läuft..."
+    },
+    "errConnection": {
+        "message": "Verbindungsfehler mit dem Kern."
+    },
+    "modeTruthFake": {
+        "message": "Wahrheit/Fake-Scan"
+    },
+    "modeFallacies": {
+        "message": "Logische Fehler"
+    },
+    "modeAiScan": {
+        "message": "KI-Scanner"
+    },
+    "modeTldr": {
+        "message": "TL;DR-Reduzierung"
+    },
+    "modeQuotes": {
+        "message": "Datenextraktion"
+    },
+    "modePolarization": {
+        "message": "Polarisationsbewertung"
+    },
+    "labelTruth": {
+        "message": "WAHRHEIT"
+    },
+    "labelFake": {
+        "message": "FAKE"
+    },
+    "labelHuman": {
+        "message": "MENSCH"
+    },
+    "labelSynthetic": {
+        "message": "KI"
+    },
+    "labelObjective": {
+        "message": "OBJEKTIV"
+    },
+    "labelPolarized": {
+        "message": "POLARISIERT"
+    },
+    "labelBasis": {
+        "message": "Basis:"
+    },
+    "labelConsensus": {
+        "message": "Externe Quellenverlässlichkeit"
+    },
+    "tooltipUpvote": {
+        "message": "Unterstützende Quellen"
+    },
+    "tooltipDownvote": {
+        "message": "Widerlegende Quellen"
+    },
+    "sysPromptTruthFake": {
+        "message": "You are a CogSec analyst 'Cortex'. Assess truth vs fake."
+    },
+    "sysPromptFallacies": {
+        "message": "You are a cognitive bias analyst. Find logical fallacies."
+    },
+    "sysPromptAiScan": {
+        "message": "You are an AI detector. Estimate human vs AI."
+    },
+    "sysPromptTldr": {
+        "message": "You are a brutal editor. Summarize minimalistically."
+    },
+    "sysPromptQuotes": {
+        "message": "You are a hard data extractor. Extract quotes."
+    },
+    "sysPromptPolarization": {
+        "message": "You are a polarization researcher. Assess extremes."
+    },
+    "sysPromptStrictMode": {
+        "message": " STRICT MODE ACTIVE: Be ruthlessly rigorous."
+    }
+}

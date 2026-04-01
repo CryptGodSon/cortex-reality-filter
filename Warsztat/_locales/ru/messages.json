@@ -1,0 +1,128 @@
+{
+    "extName": {
+        "message": "Фильтр Реальности Cortex"
+    },
+    "extDescription": {
+        "message": "Когнитивная безопасность"
+    },
+    "menuTitle": {
+        "message": "Меню Cortex"
+    },
+    "verificationHeader": {
+        "message": "🔍 Верификация"
+    },
+    "btnTruthFake": {
+        "message": "Правда/Ложь"
+    },
+    "btnFallacies": {
+        "message": "Логические ошибки"
+    },
+    "btnAiScan": {
+        "message": "ИИ Сканер"
+    },
+    "processingHeader": {
+        "message": "⚡ Обработка"
+    },
+    "btnTldr": {
+        "message": "Анти-Кликбейт"
+    },
+    "btnQuotes": {
+        "message": "Цитаты"
+    },
+    "btnPolarization": {
+        "message": "Ось поляризации"
+    },
+    "systemControlHeader": {
+        "message": "⚙️ Настройки"
+    },
+    "labelStrictMode": {
+        "message": "Строгий режим ИИ"
+    },
+    "labelFocusMode": {
+        "message": "Режим фокусировки"
+    },
+    "labelAutoScan": {
+        "message": "Авто-сканирование"
+    },
+    "footerHint": {
+        "message": "Выделите текст на странице."
+    },
+    "errNoText": {
+        "message": "Текст не найден!"
+    },
+    "overlayLoading": {
+        "message": "Нейронное сканирование..."
+    },
+    "errConnection": {
+        "message": "Ошибка подключения."
+    },
+    "modeTruthFake": {
+        "message": "Правда/Ложь"
+    },
+    "modeFallacies": {
+        "message": "Логические ошибки"
+    },
+    "modeAiScan": {
+        "message": "ИИ Сканер"
+    },
+    "modeTldr": {
+        "message": "TL;DR"
+    },
+    "modeQuotes": {
+        "message": "Извлечение данных"
+    },
+    "modePolarization": {
+        "message": "Оценка поляризации"
+    },
+    "labelTruth": {
+        "message": "ПРАВДА"
+    },
+    "labelFake": {
+        "message": "ЛОЖЬ"
+    },
+    "labelHuman": {
+        "message": "ЧЕЛОВЕК"
+    },
+    "labelSynthetic": {
+        "message": "ИИ"
+    },
+    "labelObjective": {
+        "message": "ОБЪЕКТИВНО"
+    },
+    "labelPolarized": {
+        "message": "ПОЛЯРИЗОВАНО"
+    },
+    "labelBasis": {
+        "message": "Основание:"
+    },
+    "labelConsensus": {
+        "message": "Надежность источника"
+    },
+    "tooltipUpvote": {
+        "message": "Подтверждают"
+    },
+    "tooltipDownvote": {
+        "message": "Опровергают"
+    },
+    "sysPromptTruthFake": {
+        "message": "You are a CogSec analyst."
+    },
+    "sysPromptFallacies": {
+        "message": "You are a cognitive bias analyst."
+    },
+    "sysPromptAiScan": {
+        "message": "You are an AI detector."
+    },
+    "sysPromptTldr": {
+        "message": "You are a brutal editor."
+    },
+    "sysPromptQuotes": {
+        "message": "You are a hard data extractor."
+    },
+    "sysPromptPolarization": {
+        "message": "You are a polarization researcher."
+    },
+    "sysPromptStrictMode": {
+        "message": " STRICT MODE ACTIVE."
+    }
+}

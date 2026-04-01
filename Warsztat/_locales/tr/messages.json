@@ -1,0 +1,128 @@
+{
+    "extName": {
+        "message": "Cortex Gerçeklik Filtresi"
+    },
+    "extDescription": {
+        "message": "Bilişsel Güvenlik Katmanı"
+    },
+    "menuTitle": {
+        "message": "Cortex Menüsü"
+    },
+    "verificationHeader": {
+        "message": "🔍 Doğrulama"
+    },
+    "btnTruthFake": {
+        "message": "Gerçek/Sahte"
+    },
+    "btnFallacies": {
+        "message": "Mantıksal Yanılgılar"
+    },
+    "btnAiScan": {
+        "message": "Yapay Zeka Tarayıcı"
+    },
+    "processingHeader": {
+        "message": "⚡ İşleniyor"
+    },
+    "btnTldr": {
+        "message": "Anti-Tıklama Tuzağı"
+    },
+    "btnQuotes": {
+        "message": "Alıntılar"
+    },
+    "btnPolarization": {
+        "message": "Kutuplaşma Ekseni"
+    },
+    "systemControlHeader": {
+        "message": "⚙️ Sistem Kontrolü"
+    },
+    "labelStrictMode": {
+        "message": "Yapay Zeka Katı Modu"
+    },
+    "labelFocusMode": {
+        "message": "Odak Modu"
+    },
+    "labelAutoScan": {
+        "message": "Otomatik Tarama"
+    },
+    "footerHint": {
+        "message": "Lütfen önce metni seçin."
+    },
+    "errNoText": {
+        "message": "Metin bulunamadı!"
+    },
+    "overlayLoading": {
+        "message": "Nöral Tarama..."
+    },
+    "errConnection": {
+        "message": "Bağlantı hatası."
+    },
+    "modeTruthFake": {
+        "message": "Gerçek/Sahte Tarama"
+    },
+    "modeFallacies": {
+        "message": "Mantıksal Yanılgılar"
+    },
+    "modeAiScan": {
+        "message": "Yapay Zeka Tarayıcı"
+    },
+    "modeTldr": {
+        "message": "TL;DR"
+    },
+    "modeQuotes": {
+        "message": "Veri Çıkarımı"
+    },
+    "modePolarization": {
+        "message": "Kutuplaşma Değerlendirmesi"
+    },
+    "labelTruth": {
+        "message": "GERÇEK"
+    },
+    "labelFake": {
+        "message": "SAHTE"
+    },
+    "labelHuman": {
+        "message": "İNSAN"
+    },
+    "labelSynthetic": {
+        "message": "YAPAY ZEKA"
+    },
+    "labelObjective": {
+        "message": "OBJEKTİF"
+    },
+    "labelPolarized": {
+        "message": "KUTUPLAŞMIŞ"
+    },
+    "labelBasis": {
+        "message": "Temel:"
+    },
+    "labelConsensus": {
+        "message": "Dış Kaynak Güvenilirliği"
+    },
+    "tooltipUpvote": {
+        "message": "Destekleyen"
+    },
+    "tooltipDownvote": {
+        "message": "Çürüten"
+    },
+    "sysPromptTruthFake": {
+        "message": "You are a CogSec analyst."
+    },
+    "sysPromptFallacies": {
+        "message": "You are a cognitive bias analyst."
+    },
+    "sysPromptAiScan": {
+        "message": "You are an AI detector."
+    },
+    "sysPromptTldr": {
+        "message": "You are a brutal editor."
+    },
+    "sysPromptQuotes": {
+        "message": "You are a hard data extractor."
+    },
+    "sysPromptPolarization": {
+        "message": "You are a polarization researcher."
+    },
+    "sysPromptStrictMode": {
+        "message": " STRICT MODE ACTIVE."
+    }
+}

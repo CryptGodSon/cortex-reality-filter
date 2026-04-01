@@ -1,0 +1,18 @@
+# Zignoruj folder ze stroną internetową
+Website/
+
+# Zignoruj paczki wyjściowe i archiwa
+*.zip
+cortex-extension-prod.zip
+
+# Rozszerzenia i logi
+*.log
+.DS_Store
+
+# Środowisko i zależności (np. dla Bun/Node, jeśli we wnętrzu pojawią się na tym poziomie)
+node_modules/
+.env
+
+# Ignorowanie plików IDE/edytorów
+.vscode/
+.idea/

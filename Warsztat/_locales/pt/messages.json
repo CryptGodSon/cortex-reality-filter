@@ -1,0 +1,128 @@
+{
+    "extName": {
+        "message": "Filtro de Realidade Cortex"
+    },
+    "extDescription": {
+        "message": "Sua camada CogSec."
+    },
+    "menuTitle": {
+        "message": "Menu Cortex"
+    },
+    "verificationHeader": {
+        "message": "🔍 Verificação (CogSec)"
+    },
+    "btnTruthFake": {
+        "message": "Verdade/Falso"
+    },
+    "btnFallacies": {
+        "message": "Falácias Lógicas"
+    },
+    "btnAiScan": {
+        "message": "Scanner de IA"
+    },
+    "processingHeader": {
+        "message": "⚡ Processamento (TL;DR)"
+    },
+    "btnTldr": {
+        "message": "Anti-Clickbait"
+    },
+    "btnQuotes": {
+        "message": "Citações"
+    },
+    "btnPolarization": {
+        "message": "Eixo de Polarização"
+    },
+    "systemControlHeader": {
+        "message": "⚙️ Controle do Sistema"
+    },
+    "labelStrictMode": {
+        "message": "Modo Estrito IA (1-10)"
+    },
+    "labelFocusMode": {
+        "message": "Modo Foco"
+    },
+    "labelAutoScan": {
+        "message": "Auto Varredura"
+    },
+    "footerHint": {
+        "message": "Selecione o texto na página antes de clicar."
+    },
+    "errNoText": {
+        "message": "Cortex: Nenhum texto encontrado!"
+    },
+    "overlayLoading": {
+        "message": "Varredura Neural em curso..."
+    },
+    "errConnection": {
+        "message": "Erro de conexão."
+    },
+    "modeTruthFake": {
+        "message": "Varredura Verdade/Falso"
+    },
+    "modeFallacies": {
+        "message": "Falácias Lógicas"
+    },
+    "modeAiScan": {
+        "message": "Scanner de IA"
+    },
+    "modeTldr": {
+        "message": "Redução TL;DR"
+    },
+    "modeQuotes": {
+        "message": "Extração de Dados"
+    },
+    "modePolarization": {
+        "message": "Avaliação de Polarização"
+    },
+    "labelTruth": {
+        "message": "VERDADE"
+    },
+    "labelFake": {
+        "message": "FALSO"
+    },
+    "labelHuman": {
+        "message": "HUMANO"
+    },
+    "labelSynthetic": {
+        "message": "IA"
+    },
+    "labelObjective": {
+        "message": "OBJETIVO"
+    },
+    "labelPolarized": {
+        "message": "POLARIZADO"
+    },
+    "labelBasis": {
+        "message": "Base:"
+    },
+    "labelConsensus": {
+        "message": "Confiabilidade de Fonte Externa"
+    },
+    "tooltipUpvote": {
+        "message": "Fontes que apoiam"
+    },
+    "tooltipDownvote": {
+        "message": "Fontes que refutam"
+    },
+    "sysPromptTruthFake": {
+        "message": "You are a CogSec analyst. Assess truth vs fake."
+    },
+    "sysPromptFallacies": {
+        "message": "You are a cognitive bias analyst."
+    },
+    "sysPromptAiScan": {
+        "message": "You are an AI detector."
+    },
+    "sysPromptTldr": {
+        "message": "You are a brutal editor."
+    },
+    "sysPromptQuotes": {
+        "message": "You are a hard data extractor."
+    },
+    "sysPromptPolarization": {
+        "message": "You are a polarization researcher."
+    },
+    "sysPromptStrictMode": {
+        "message": " STRICT MODE ACTIVE."
+    }
+}

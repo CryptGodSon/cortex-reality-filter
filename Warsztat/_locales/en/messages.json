@@ -1,0 +1,128 @@
+{
+    "extName": {
+        "message": "Cortex Reality Filter"
+    },
+    "extDescription": {
+        "message": "Your CogSec reality layer."
+    },
+    "menuTitle": {
+        "message": "Cortex Menu"
+    },
+    "verificationHeader": {
+        "message": "🔍 Verification (CogSec)"
+    },
+    "btnTruthFake": {
+        "message": "Truth/Fake"
+    },
+    "btnFallacies": {
+        "message": "Logical Fallacies"
+    },
+    "btnAiScan": {
+        "message": "AI Scanner"
+    },
+    "processingHeader": {
+        "message": "⚡ Processing (TL;DR)"
+    },
+    "btnTldr": {
+        "message": "Anti Clickbait"
+    },
+    "btnQuotes": {
+        "message": "Quotes"
+    },
+    "btnPolarization": {
+        "message": "Polarization Axis"
+    },
+    "systemControlHeader": {
+        "message": "⚙️ System Control"
+    },
+    "labelStrictMode": {
+        "message": "AI Strict Mode (1-10)"
+    },
+    "labelFocusMode": {
+        "message": "Focus Mode (Dim Background)"
+    },
+    "labelAutoScan": {
+        "message": "Auto Scan (On Entry)"
+    },
+    "footerHint": {
+        "message": "Select text on the page before clicking."
+    },
+    "errNoText": {
+        "message": "Cortex: No text to analyze found on this page!"
+    },
+    "overlayLoading": {
+        "message": "Neural Scan in Progress..."
+    },
+    "errConnection": {
+        "message": "Connection error with Neural Core. Refresh the page."
+    },
+    "modeTruthFake": {
+        "message": "Truth/Fake Scan"
+    },
+    "modeFallacies": {
+        "message": "Logical Fallacies"
+    },
+    "modeAiScan": {
+        "message": "AI Scanner (Synthetic)"
+    },
+    "modeTldr": {
+        "message": "TL;DR Reduction"
+    },
+    "modeQuotes": {
+        "message": "Data Extraction"
+    },
+    "modePolarization": {
+        "message": "Polarization Assessment"
+    },
+    "labelTruth": {
+        "message": "TRUTH"
+    },
+    "labelFake": {
+        "message": "FAKE"
+    },
+    "labelHuman": {
+        "message": "HUMAN"
+    },
+    "labelSynthetic": {
+        "message": "AI SYNTHETIC"
+    },
+    "labelObjective": {
+        "message": "OBJECTIVE"
+    },
+    "labelPolarized": {
+        "message": "POLARIZED"
+    },
+    "labelBasis": {
+        "message": "Basis:"
+    },
+    "labelConsensus": {
+        "message": "External Source Reliability"
+    },
+    "tooltipUpvote": {
+        "message": "Sources supporting the thesis"
+    },
+    "tooltipDownvote": {
+        "message": "Sources refuting the thesis"
+    },
+    "sysPromptTruthFake": {
+        "message": "You are a CogSec analyst 'Cortex'. Apply ZERO TRUST. Don't blindly trust authority, find the agenda. Also, estimate network consensus. Return JSON: `truth_score` (%) and `fake_score` (%). `verdict`: max 2 sentences of assessment. `basis`: basis for assessment. `consensus_supporting`: int (est. number of supporting sources), `consensus_refuting`: int (refuting sources)."
+    },
+    "sysPromptFallacies": {
+        "message": "You are a cognitive bias analyst. Focus only on manipulation and logical fallacies (e.g., Ad Hominem, Strawman, Appeal to fear). Return a JSON array up to 3 logical fallacies, a verdict, and an estimate of support for this argumentation path on the web."
+    },
+    "sysPromptAiScan": {
+        "message": "You are an AI detector. Analyze linguistic structures and repetitiveness. Assess percentage human vs AI authored. Return JSON: `truth_score` (% human), `fake_score` (% AI). `consensus_supporting` should reflect probability (%) of finding a copy of this text online."
+    },
+    "sysPromptTldr": {
+        "message": "You are a brutal editor. Cut clickbait, SEO water, and fluff. Summarize the hidden informational essence of the text in absolute minimum words. Include consensus estimate."
+    },
+    "sysPromptQuotes": {
+        "message": "You are a hard data extractor. Extract 2 to 3 main theses, quotes, or numerical data (if any). Estimate network belief in this data."
+    },
+    "sysPromptPolarization": {
+        "message": "You are a polarization researcher. Assess if the author tries to force conflict, outrage, or feeds on emotions. Estimate how divided the network is on this topic."
+    },
+    "sysPromptStrictMode": {
+        "message": " STRICT MODE ACTIVE: Be ruthlessly rigorous and cynical in your assessment. Lower credibility at the slightest evidentiary doubt."
+    }
+}
