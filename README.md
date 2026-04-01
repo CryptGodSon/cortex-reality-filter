@@ -10,6 +10,8 @@
     <img src="https://img.shields.io/badge/AI-Gemini_2.0_Flash-orange?style=for-the-badge&logo=googlegemini" alt="Gemini" />
     <img src="https://img.shields.io/badge/Status-Private_MVP-red?style=for-the-badge" alt="Private" />
   </p>
+
+  <p>🌍 <strong>Languages:</strong> <a href="README.en.md">🇺🇸 English</a> | <a href="README.md">🇵🇱 Polski</a></p>
 </div>
 
 <hr/>
