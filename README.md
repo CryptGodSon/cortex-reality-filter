@@ -37,6 +37,10 @@ Stos technologiczny został architektonicznie przygotowany pod absolutnie zerowe
 ### 1. 🟢 Truth Overlay (Piktogram Weryfikacji)
 Wstrzykiwanie w "piaskownicy" DOM (Shadow) graficznych i świetlistych powiadomień. Małe nakładki *(Truth / Vibe Score Badges)* pokazują się fizycznie obok postów innych użytkowników. Algorytm w 0.2s ocenia ich realność i skompresowany prawdziwy zamiar nadawcy. 
 
+> **Live Preview (Koncept UI):**
+> <br/>
+> <img src="Warsztat/assets/truth-overlay-example.png" alt="Truth Overlay Live Interface" width="700"/>
+
 ### 2. ⏳ Focus-Lock Mode (Klucz Receptywny)
 Algorytm z uprawnieniami modyfikacji witryny live. Wymuszasz dany profil przeglądania (np. "*Kontekst: Nauka Pythona*"). Skrypt analizuje semistrukturę serwisu i w tle agresywnie usuwa **każdy** poboczny element pożerający uwagę (tzw. shorciki, nieprzyporządkowane notyfikacje, clickbaity na boku), zostawiając czystą esencję serwisu.
 

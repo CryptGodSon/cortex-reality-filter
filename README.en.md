@@ -37,6 +37,10 @@ The tech stack was architecturally prepared for absolutely zero latency, massive
 ### 1. 🟢 Truth Overlay (Verification Pictogram)
 Injecting graphical and luminous notifications into the DOM (Shadow) sandbox. Small overlays *(Truth / Vibe Score Badges)* physically appear next to other users' posts. The algorithm assesses their reality and the compressed true intent of the sender in 0.2s.
 
+> **Live Preview (UI Concept):**
+> <br/>
+> <img src="Warsztat/assets/truth-overlay-example.png" alt="Truth Overlay Live Interface" width="700"/>
+
 ### 2. ⏳ Focus-Lock Mode (Receptive Key)
 An algorithm with live site modification permissions. You force a specific browsing profile (e.g., "*Context: Learning Python*"). The script analyzes the site's semi-structure and aggressively removes **every** secondary element consuming attention in the background (shortcuts, unassigned notifications, side clickbaits), leaving the pure essence of the site.
 
