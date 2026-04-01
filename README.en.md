@@ -12,6 +12,9 @@
   </p>
   
   <p>🌍 <strong>Languages:</strong> <a href="README.en.md">🇺🇸 English</a> | <a href="README.md">🇵🇱 Polski</a></p>
+
+  <br />
+  <img src="Warsztat/assets/cortex-demo.gif" alt="Cortex Live Demo - Wikipedia" width="850" style="border-radius: 10px; margin-top: 15px;" />
 </div>
 
 <hr/>
