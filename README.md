@@ -4,6 +4,8 @@
   <h3><i>Reality Filter Layer & Cognitive Security</i></h3>
 
   <p><strong>"Don't just browse the web. See what's actually there."</strong></p>
+  
+  <p>🌐 <strong>Oficjalna Strona:</strong> <a href="https://www.cortexrealityfilter.com">www.cortexrealityfilter.com</a></p>
 
   <p>
     <img src="https://img.shields.io/badge/System-AntiGravity-blue?style=for-the-badge&logo=googlecloud" alt="AntiGravity" />
@@ -20,7 +22,7 @@
 <hr/>
 
 ## 📌 O wizji systemu (Projekt "The Dead Internet")
-**Cortex** to innowacyjna warstwa **Cognitive Security (CogSec)** zaplanowana jako rynkowy standard na lata 2026/2027. Żyjemy w świecie całkowicie zdominowanym przez syntetyczne media, boty i szum algorytmiczny. 
+**Cortex** to innowacyjna warstwa **Cognitive Security (CogSec)** zaplanowana jako rynkowy standard na lata 2026/2027. Budujemy i wdrażamy w życie algorytmy opisane i udostępniane dla testerów na naszej globalnej platformie <a href="https://www.cortexrealityfilter.com">cortexrealityfilter.com</a>. Żyjemy w świecie całkowicie zdominowanym przez syntetyczne media, boty i szum algorytmiczny. 
 
 Większość tego, co widzisz w internecie, to starannie zaprojektowana iluzja wygenerowana w celu zrujnowania Twojej uwagi dopaminą. Cortex to Twój osobisty, bezwzględny strażnik. Działa jako "szklana" (przezroczysta) nakładka nałożona bezpośrednio na przeglądarkę internetową. Odfiltrowuje w milisekundach bezwartościowy szum, wyłapuje dezinformacje i całkowicie izoluje Twój umysł od najprostszych manipulacji takich platform jak *X, Meta, TikTok czy Google*.
 

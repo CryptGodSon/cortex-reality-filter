@@ -4,6 +4,8 @@
   <h3><i>Reality Filter Layer & Cognitive Security</i></h3>
 
   <p><strong>"Don't just browse the web. See what's actually there."</strong></p>
+  
+  <p>🌐 <strong>Official Website:</strong> <a href="https://www.cortexrealityfilter.com">www.cortexrealityfilter.com</a></p>
 
   <p>
     <img src="https://img.shields.io/badge/System-AntiGravity-blue?style=for-the-badge&logo=googlecloud" alt="AntiGravity" />
@@ -20,7 +22,7 @@
 <hr/>
 
 ## 📌 System Vision (Project "The Dead Internet")
-**Cortex** is an innovative **Cognitive Security (CogSec)** layer planned as the market standard for 2026/2027. We live in a world completely dominated by synthetic media, bots, and algorithmic noise.
+**Cortex** is an innovative **Cognitive Security (CogSec)** layer planned as the market standard for 2026/2027. We are building and deploying algorithms described and made available for testers on our global platform <a href="https://www.cortexrealityfilter.com">cortexrealityfilter.com</a>. We live in a world completely dominated by synthetic media, bots, and algorithmic noise.
 
 Most of what you see on the internet is a carefully designed illusion generated to ruin your attention span with dopamine. Cortex is your personal, ruthless guardian. It acts as a "glass" (transparent) overlay applied directly to your web browser. It filters out worthless noise in milliseconds, catches disinformation, and completely isolates your mind from the simplest manipulations of platforms like *X, Meta, TikTok, or Google*.
 
