@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="Warsztat/assets/icon128.png" alt="Cortex Extension Icon" width="160"/>
+  <img src="extension/assets/icon128.png" alt="Cortex Extension Icon" width="160"/>
   <h1>🛡️ CORTEX</h1>
   <h3><i>Reality Filter Layer & Cognitive Security</i></h3>
 
@@ -16,7 +16,7 @@
   <p>🌍 <strong>Languages:</strong> <a href="README.en.md">🇺🇸 English</a> | <a href="README.md">🇵🇱 Polski</a></p>
 
   <br />
-  <img src="Warsztat/assets/cortex-demo.gif" alt="Cortex Live Demo - Wikipedia" width="850" style="border-radius: 10px; margin-top: 15px;" />
+  <img src="extension/assets/cortex-demo.gif" alt="Cortex Live Demo - Wikipedia" width="850" style="border-radius: 10px; margin-top: 15px;" />
 </div>
 
 <hr/>
@@ -44,7 +44,7 @@ Injecting graphical and luminous notifications into the DOM (Shadow) sandbox. Sm
 
 > **Live Preview (UI Concept):**
 > <br/>
-> <img src="Warsztat/assets/truth-overlay-example.png" alt="Truth Overlay Live Interface" width="700"/>
+> <img src="extension/assets/truth-overlay-example.png" alt="Truth Overlay Live Interface" width="700"/>
 
 ### 2. ⏳ Focus-Lock Mode (Receptive Key)
 An algorithm with live site modification permissions. You force a specific browsing profile (e.g., "*Context: Learning Python*"). The script analyzes the site's semi-structure and aggressively removes **every** secondary element consuming attention in the background (shortcuts, unassigned notifications, side clickbaits), leaving the pure essence of the site.

@@ -1,9 +1,9 @@
 # Zignoruj folder ze stroną internetową
-Website/
+website/
 
 # Zignoruj paczki wyjściowe i archiwa
 *.zip
-cortex-extension-prod.zip
+releases/
 
 # Rozszerzenia i logi
 *.log

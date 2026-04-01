@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="Warsztat/assets/icon128.png" alt="Cortex Ikona Rozszerzenia" width="160"/>
+  <img src="extension/assets/icon128.png" alt="Cortex Ikona Rozszerzenia" width="160"/>
   <h1>🛡️ CORTEX</h1>
   <h3><i>Reality Filter Layer & Cognitive Security</i></h3>
 
@@ -16,7 +16,7 @@
   <p>🌍 <strong>Languages:</strong> <a href="README.en.md">🇺🇸 English</a> | <a href="README.md">🇵🇱 Polski</a></p>
 
   <br />
-  <img src="Warsztat/assets/cortex-demo.gif" alt="Cortex Live Demo - Wikipedia" width="850" style="border-radius: 10px; margin-top: 15px;" />
+  <img src="extension/assets/cortex-demo.gif" alt="Cortex Live Demo - Wikipedia" width="850" style="border-radius: 10px; margin-top: 15px;" />
 </div>
 
 <hr/>
@@ -44,7 +44,7 @@ Wstrzykiwanie w "piaskownicy" DOM (Shadow) graficznych i świetlistych powiadomi
 
 > **Live Preview (Koncept UI):**
 > <br/>
-> <img src="Warsztat/assets/truth-overlay-example.png" alt="Truth Overlay Live Interface" width="700"/>
+> <img src="extension/assets/truth-overlay-example.png" alt="Truth Overlay Live Interface" width="700"/>
 
 ### 2. ⏳ Focus-Lock Mode (Klucz Receptywny)
 Algorytm z uprawnieniami modyfikacji witryny live. Wymuszasz dany profil przeglądania (np. "*Kontekst: Nauka Pythona*"). Skrypt analizuje semistrukturę serwisu i w tle agresywnie usuwa **każdy** poboczny element pożerający uwagę (tzw. shorciki, nieprzyporządkowane notyfikacje, clickbaity na boku), zostawiając czystą esencję serwisu.
