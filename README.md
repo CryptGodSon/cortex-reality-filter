@@ -22,7 +22,7 @@
 <hr/>
 
 ## 📌 O wizji systemu (Projekt "The Dead Internet")
-**Cortex** to innowacyjna warstwa **Cognitive Security (CogSec)** zaplanowana jako rynkowy standard na lata 2026/2027. Budujemy i wdrażamy w życie algorytmy opisane i udostępniane dla testerów na naszej globalnej platformie <a href="https://www.cortexrealityfilter.com">cortexrealityfilter.com</a>. Żyjemy w świecie całkowicie zdominowanym przez syntetyczne media, boty i szum algorytmiczny. 
+**Cortex** to innowacyjna warstwa **Cognitive Security (CogSec)** zaplanowana jako rynkowy standard na lata 2026/2027. Buduje i wdrażam w życie algorytmy opisane i udostępniane dla testerów na mojej globalnej platformie <a href="https://www.cortexrealityfilter.com">cortexrealityfilter.com</a>. Żyjemy w świecie całkowicie zdominowanym przez syntetyczne media, boty i szum algorytmiczny. 
 
 Większość tego, co widzisz w internecie, to starannie zaprojektowana iluzja wygenerowana w celu zrujnowania Twojej uwagi dopaminą. Cortex to Twój osobisty, bezwzględny strażnik. Działa jako "szklana" (przezroczysta) nakładka nałożona bezpośrednio na przeglądarkę internetową. Odfiltrowuje w milisekundach bezwartościowy szum, wyłapuje dezinformacje i całkowicie izoluje Twój umysł od najprostszych manipulacji takich platform jak *X, Meta, TikTok czy Google*.
 
