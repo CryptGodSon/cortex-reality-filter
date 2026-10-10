@@ -1,6 +1,3 @@
-# Zignoruj folder ze stroną internetową
-website/
-
 # Zignoruj paczki wyjściowe i archiwa
 *.zip
 releases/

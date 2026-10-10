@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORTEX | Reality Filter Layer</title>
+    <link rel="icon" type="image/png" href="assets/icon128.png">
+    <!-- Meta/SEO Tags -->
+    <meta name="description"
+        content="CORTEX to rozszerzenie przeglądarki, które filtruje rzeczywistość cyfrową. Wykrywa fake newsy, skanuje AI i redukuje polaryzację.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?v=20261010">
+    <link rel="canonical" href="https://cortexrealityfilter.com/">
+    <meta name="theme-color" content="#050505">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+
+    <!-- Open Graph / Facebook / Discord -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cortexrealityfilter.com/">
+    <meta property="og:title" content="CORTEX | Reality Filter Layer">
+    <meta property="og:description"
+        content="CORTEX to rozszerzenie przeglądarki, które filtruje rzeczywistość cyfrową. Wykrywa fake newsy, skanuje AI i redukuje polaryzację.">
+    <meta property="og:image" content="https://cortexrealityfilter.com/assets/social-preview.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://cortexrealityfilter.com/">
+    <meta name="twitter:title" content="CORTEX | Reality Filter Layer">
+    <meta name="twitter:description"
+        content="CORTEX to rozszerzenie przeglądarki, które filtruje rzeczywistość cyfrową. Wykrywa fake newsy, skanuje AI i redukuje polaryzację.">
+    <meta name="twitter:image" content="https://cortexrealityfilter.com/assets/social-preview.jpg">
+</head>
+
+<body>
+    <!-- Page Transition Overlay -->
+    <div class="page-transition"></div>
+
+
+    <!-- Background Effects -->
+    <div class="background-mesh"></div>
+    <div class="scanline"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo" style="text-decoration: none; color: inherit;">
+                <span class="logo-icon"></span>
+                <span class="logo-text">CORTEX</span>
+            </a>
+
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <div class="nav-links" id="nav-links">
+                <a href="#features" class="nav-link" data-i18n="nav_features">Features</a>
+                <a href="#showcase" class="nav-link" data-i18n="nav_showcase">Showcase</a>
+                <a href="https://github.com/CryptGodSon/cortex-reality-filter" target="_blank" rel="noopener noreferrer" class="btn-primary install-btn">
+                    <span data-i18n="nav_install">Install Extension</span>
+                    <i data-lucide="download"></i>
+                </a>
+                <div class="lang-switcher">
+                    <button type="button" class="lang-btn" aria-haspopup="true" aria-expanded="false">
+                        English <i data-lucide="chevron-down" style="width: 14px; height: 14px;"></i>
+                    </button>
+                    <div class="lang-dropdown">
+                        <a href="#" class="lang-option" data-lang="pl">Polski</a>
+                        <a href="#" class="lang-option active" data-lang="en">English</a>
+                    </div>
+                </div>
+                <div class="github-btns">
+                    <a class="github-button" href="https://github.com/CryptGodSon/cortex-reality-filter" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star CryptGodSon/cortex-reality-filter on GitHub">Star</a>
+                    <a class="github-button" href="https://github.com/CryptGodSon" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Follow @CryptGodSon on GitHub">Follow @CryptGodSon</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scroll-progress-bar"></div>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-badge reveal-elem">
+                    <span class="pulse-dot"></span> <span data-i18n="hero_badge">CogSec Engine v1.0</span>
+                </div>
+                <h1 class="hero-title reveal-elem">
+                    <span class="decipher-text" data-text="Regain control over" data-i18n="hero_title1">Regain control over</span> <br>
+                    <span class="gradient-text decipher-text" data-text="Digital Reality." data-i18n="hero_title2">Digital Reality.</span>
+                </h1>
+                <p class="hero-subtitle reveal-elem" data-i18n="hero_subtitle">
+                    Cortex is your personal cognitive filter. Instantly analyze information, detect manipulation,
+                    and protect your mind from online polarization.
+                </p>
+
+                <div class="cogsec-info reveal-elem">
+                    <div class="cogsec-icon">
+                        <i data-lucide="shield-check"></i>
+                    </div>
+                    <div class="cogsec-text">
+                        <strong data-i18n="hero_cogsec_title">Proprietary Cognitive Security Engine</strong>
+                        <span data-i18n="hero_cogsec_desc">An advanced semantic and behavioral analysis system. It deconstructs manipulation in real-time, maps polarization, and protects against cognitive attacks.</span>
+                    </div>
+                </div>
+
+                <div class="hero-actions reveal-elem">
+                    <a href="https://github.com/CryptGodSon/cortex-reality-filter" target="_blank" rel="noopener noreferrer" class="btn-primary large-btn">
+                        <span data-i18n="hero_btn">Get CORTEX for free</span>
+                        <i data-lucide="arrow-right"></i>
+                    </a>
+                    <a href="#showcase" class="btn-secondary large-btn">
+                        <i data-lucide="play"></i>
+                        <span data-i18n="hero_btn_demo">Watch demo</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal-elem">
+                <div class="glass-panel main-panel">
+                    <div class="panel-header">
+                        <div class="mac-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="panel-title">CORTEX_AI_SCANNER</div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="playground-form">
+                            <label for="playground-input" class="sr-only" data-i18n="play_label">Text to scan</label>
+                            <textarea id="playground-input" placeholder="Paste a suspicious text or headline..." data-i18n="play_placeholder" rows="5" maxlength="5000"></textarea>
+                            <div class="playground-actions">
+                                <button type="button" id="playground-sample-btn" class="btn-secondary">
+                                    <i data-lucide="wand-sparkles"></i> <span data-i18n="play_sample">Example</span>
+                                </button>
+                                <button type="button" id="playground-scan-btn" class="btn-primary">
+                                    <i data-lucide="scan"></i> <span data-i18n="play_btn">Scan Text</span>
+                                </button>
+                            </div>
+                            <p class="playground-hint" id="playground-hint" data-i18n="play_hint">Paste at least a few words to start the scan.</p>
+                        </div>
+                        <div id="playground-results" class="scanning-code" hidden aria-live="polite">
+                            <p class="blink processing-text" data-i18n="play_analyzing">Analyzing semantics & logic...</p>
+                            <div class="results-content" hidden>
+                                <div class="result-score">
+                                    <span class="result-label" data-i18n="play_risk">Manipulation risk</span>
+                                    <span class="result-value" id="res-risk-value">0%</span>
+                                </div>
+                                <div class="result-meter"><div class="result-meter-fill" id="res-risk-bar"></div></div>
+                                <ul class="result-list">
+                                    <li><span data-i18n="play_emotion_label">Emotional load</span> <strong id="res-emotion"></strong></li>
+                                    <li><span data-i18n="play_clickbait_label">Clickbait signals</span> <strong id="res-clickbait"></strong></li>
+                                    <li><span data-i18n="play_absolute_label">Absolutes &amp; generalizations</span> <strong id="res-absolute"></strong></li>
+                                </ul>
+                                <p class="result-verdict" id="res-verdict"></p>
+                                <p class="result-note" data-i18n="play_note">Browser demo based on simple heuristics. The full extension runs a deep analysis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="glow-orb orb-1"></div>
+                    <div class="glow-orb orb-2"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <div class="section-header reveal-elem">
+                <h2 class="section-title" data-i18n="feat_title">Verification <span class="gradient-text">Tools</span></h2>
+                <p class="section-subtitle" data-i18n="feat_subtitle">Developed to protect against manipulation, disinformation, and cognitive
+                    overload.</p>
+            </div>
+
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card reveal-elem glass-card" data-video="truth_fake">
+                    <div class="card-glow"></div>
+                    <div class="card-icon">
+                        <i data-lucide="scale"></i>
+                    </div>
+                    <h3 class="card-title" data-i18n="feat1_title">Truth / Fake</h3>
+                    <p class="card-desc" data-i18n="feat1_desc">In-depth fact-checking with reliable sources. Stop relying on headlines and find out what is true.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card reveal-elem glass-card" data-video="fallacies">
+                    <div class="card-glow"></div>
+                    <div class="card-icon">
+                        <i data-lucide="brain-circuit"></i>
+                    </div>
+                    <h3 class="card-title" data-i18n="feat2_title">Logical Fallacies</h3>
+                    <p class="card-desc" data-i18n="feat2_desc">Scan text for cognitive biases, straw man arguments, and false reasoning (e.g., ad hominem).</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card reveal-elem glass-card" data-video="ai_scan">
+                    <div class="card-glow"></div>
+                    <div class="card-icon">
+                        <i data-lucide="bot"></i>
+                    </div>
+                    <h3 class="card-title" data-i18n="feat3_title">AI Scanner</h3>
+                    <p class="card-desc" data-i18n="feat3_desc">Instantly check with what certainty the tested text was generated by artificial intelligence (LLM).</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card reveal-elem glass-card" data-video="tldr">
+                    <div class="card-glow"></div>
+                    <div class="card-icon">
+                        <i data-lucide="sword"></i>
+                    </div>
+                    <h3 class="card-title" data-i18n="feat4_title">Anti-Clickbait</h3>
+                    <p class="card-desc" data-i18n="feat4_desc">Extract the essence from flashy articles. Get a TL;DR free from emotional overload.</p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="feature-card reveal-elem glass-card" data-video="polarization">
+                    <div class="card-glow"></div>
+                    <div class="card-icon">
+                        <i data-lucide="radiation"></i>
+                    </div>
+                    <h3 class="card-title" data-i18n="feat5_title">Polarization Axis</h3>
+                    <p class="card-desc" data-i18n="feat5_desc">Expose extremes. Check on which side of the political spectrum a given text is trying to place you.</p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="feature-card reveal-elem glass-card" data-video="focus_mode">
+                    <div class="card-glow"></div>
+                    <div class="card-icon">
+                        <i data-lucide="focus"></i>
+                    </div>
+                    <h3 class="card-title" data-i18n="feat6_title">Focus Mode</h3>
+                    <p class="card-desc" data-i18n="feat6_desc">Isolate text and immerse yourself in reading with a dark, cinematic background, ignoring ads and distractions.</p>
+                </div>
+            </div>
+            <p class="features-hint reveal-elem">
+                <i data-lucide="mouse-pointer-click"></i> <span data-i18n="feat_hint">Click a card to see the tool in action.</span>
+            </p>
+        </section>
+
+        <!-- Showcase Section -->
+        <section id="showcase" class="showcase">
+            <div class="section-header reveal-elem">
+                <h2 class="section-title" data-i18n="show_title">CORTEX <span class="gradient-text">in action</span></h2>
+                <p class="section-subtitle" data-i18n="show_subtitle">See how the extension analyzes an article directly in your browser - without leaving the page.</p>
+            </div>
+            <div class="showcase-frame reveal-elem">
+                <div class="panel-header">
+                    <div class="mac-dots">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="panel-title">cortexrealityfilter.com / live-demo</div>
+                </div>
+                <video class="showcase-video" src="assets/cortex-demo.mp4" poster="assets/cortex-demo-poster.jpg"
+                    autoplay loop muted playsinline preload="none" width="1920" height="952"></video>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox-modal" class="lightbox-modal">
+        <button class="lightbox-close" id="lightbox-close"><i data-lucide="x"></i></button>
+        <button class="lightbox-nav prev" id="lightbox-prev"><i data-lucide="chevron-left"></i></button>
+        <button class="lightbox-nav next" id="lightbox-next"><i data-lucide="chevron-right"></i></button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" style="display: none;" alt="CORTEX preview">
+            <video id="lightbox-video" autoplay loop muted playsinline style="display: none;"></video>
+        </div>
+    </div>
+
+    <section id="faq" class="faq-section">
+        <div class="section-header reveal-elem">
+            <h2 class="section-title" data-i18n="faq_title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+            <p class="section-subtitle" data-i18n="faq_subtitle">Everything you need to know about CORTEX and your data security.</p>
+        </div>
+
+        <div class="faq-container reveal-elem">
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span data-i18n="faq1_q">How is CORTEX different from a standard AdBlocker?</span>
+                    <i data-lucide="plus" class="faq-icon"></i>
+                </button>
+                <div class="faq-answer">
+                    <p data-i18n="faq1_a">While an AdBlocker only removes visual ads, CORTEX analyzes the actual content and meaning of the text. We focus on blocking cognitive manipulation and logical fallacies, not just pop-ups.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span data-i18n="faq2_q">Does CORTEX store my browsing history?</span>
+                    <i data-lucide="plus" class="faq-icon"></i>
+                </button>
+                <div class="faq-answer">
+                    <p data-i18n="faq2_a">Absolutely not. Our core "Privacy by Design" tenet is data minimization. Text analysis is fractional and anonymous. We never store complete logs of the websites you visit.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span data-i18n="faq3_q">Is the extension free?</span>
+                    <i data-lucide="plus" class="faq-icon"></i>
+                </button>
+                <div class="faq-answer">
+                    <p data-i18n="faq3_a">The core extension that protects against fake news and polarity is 100% free. Any future premium enhancements will not affect free access to our primary Cognitive Firewall tools.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span data-i18n="faq4_q">Which browsers does CORTEX support?</span>
+                    <i data-lucide="plus" class="faq-icon"></i>
+                </button>
+                <div class="faq-answer">
+                    <p data-i18n="faq4_a">Currently, the extension is fully designed to support Google Chrome and other Chromium-based browsers (such as Brave, Edge, and Opera).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" class="scroll-top-btn" title="Go to top">
+        <i data-lucide="arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo" style="text-decoration: none; color: inherit;">
+                    <span class="logo-icon"></span>
+                    <span class="logo-text">CORTEX</span>
+                </a>
+                <p data-i18n="footer_brand_desc">Personal firewall for your cognitive algorithm.</p>
+                <a href="mailto:contact@cortexrealityfilter.com" class="footer-email">
+                    <i data-lucide="mail"></i> contact@cortexrealityfilter.com
+                </a>
+            </div>
+            <div class="footer-links">
+                <h4 data-i18n="footer_tools">Verification</h4>
+                <a href="#features" data-i18n="feat3_title">AI Scanner</a>
+                <a href="#features" data-i18n="feat1_title">Truth/Fake</a>
+                <a href="#features" data-i18n="feat6_title">Focus Mode</a>
+            </div>
+            <div class="footer-links">
+                <h4 data-i18n="footer_project">Project</h4>
+                <a href="https://github.com/CryptGodSon" target="_blank" rel="noopener noreferrer" data-i18n="footer_about">About Me</a>
+                <a href="html/contact.html" data-i18n="footer_contact">Contact</a>
+            </div>
+            <div class="footer-links">
+                <h4 data-i18n="footer_legal">Legal</h4>
+                <a href="html/privacy.html" data-i18n="footer_privacy">Privacy Policy</a>
+                <a href="html/terms.html" data-i18n="footer_terms">Terms of Service</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer_copyright">&copy; 2026 Cortex Reality Filter</p>
+        </div>
+    </footer>
+
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="cookie-content">
+            <i data-lucide="cookie" class="cookie-icon"></i>
+            <div>
+                <strong data-i18n="cookie_title">Privacy by Design</strong>
+                <p data-i18n="cookie_desc">We use minimal local storage to save your language preferences. No third-party tracking.</p>
+            </div>
+        </div>
+        <button id="accept-cookies" class="btn-primary"><span data-i18n="cookie_btn">Got it</span></button>
+    </div>
+
+    <!-- Scripts -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="script/i18n.js?v=20261010"></script>
+    <script src="script/script.js?v=20261010"></script>
+    <script>
+        // Initialize lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
