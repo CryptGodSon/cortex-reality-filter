@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt | CORTEX</title>
+    <link rel="icon" type="image/png" href="../assets/icon128.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css?v=20261010">
+    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+    <style>
+        .contact-container {
+            padding: 120px 20px 80px;
+            max-width: 600px;
+            margin: 0 auto;
+            color: var(--text-color);
+        }
+
+        .contact-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .contact-header h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 3rem;
+            margin-bottom: 10px;
+            color: var(--text-primary);
+        }
+
+        .contact-header p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .contact-form {
+            background: var(--glass-bg);
+            border: 1px solid var(--panel-border);
+            border-radius: 16px;
+            padding: 40px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--text-primary);
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 14px 16px;
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            font-size: 1rem;
+            transition: all 0.3s;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--accent-color);
+            box-shadow: 0 0 15px rgba(0, 255, 204, 0.2);
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        select.form-control {
+            appearance: none;
+            cursor: pointer;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23f0f0f0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 16px center;
+            background-size: 16px;
+            padding-right: 48px;
+        }
+
+        select.form-control option {
+            background: #111;
+            color: #fff;
+        }
+
+        textarea.form-control {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 16px;
+            font-size: 1.1rem;
+            justify-content: center;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        /* Success message placeholder */
+        .form-success {
+            display: none;
+            background: rgba(0, 255, 204, 0.1);
+            color: var(--accent-color);
+            border: 1px solid rgba(0, 255, 204, 0.3);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 24px;
+            font-weight: 500;
+        }
+    </style>
+
+    <!-- Meta Tags remain the same -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cortexrealityfilter.com/">
+    <meta property="og:title" content="CORTEX | Reality Filter Layer">
+    <meta property="og:description"
+        content="CORTEX to rozszerzenie przeglądarki, które filtruje rzeczywistość cyfrową. Wykrywa fake newsy, skanuje AI i redukuje polaryzację.">
+    <meta property="og:image" content="https://cortexrealityfilter.com/assets/social-preview.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://cortexrealityfilter.com/">
+    <meta name="twitter:title" content="CORTEX | Reality Filter Layer">
+    <meta name="twitter:description"
+        content="CORTEX to rozszerzenie przeglądarki, które filtruje rzeczywistość cyfrową. Wykrywa fake newsy, skanuje AI i redukuje polaryzację.">
+    <meta name="twitter:image" content="https://cortexrealityfilter.com/assets/social-preview.jpg">
+</head>
+
+<body>
+    <!-- Page Transition Overlay -->
+    <div class="page-transition"></div>
+
+    <div class="background-mesh"></div>
+    <div class="scanline"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo" style="text-decoration: none; color: inherit;">
+                <span class="logo-icon"></span>
+                <span class="logo-text">CORTEX</span>
+            </a>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <div class="nav-links" id="nav-links">
+                <a href="../index.html#features" class="nav-link" data-i18n="nav_features">Features</a>
+                <a href="../index.html#showcase" class="nav-link" data-i18n="nav_showcase">Showcase</a>
+                <a href="../index.html" class="nav-link" data-i18n="nav_home">Home</a>
+                <div class="lang-switcher">
+                    <button type="button" class="lang-btn" aria-haspopup="true" aria-expanded="false">
+                        English <i data-lucide="chevron-down" style="width: 14px; height: 14px;"></i>
+                    </button>
+                    <div class="lang-dropdown">
+                        <a href="#" class="lang-option" data-lang="pl">Polski</a>
+                        <a href="#" class="lang-option active" data-lang="en">English</a>
+                    </div>
+                </div>
+                <div class="github-btns">
+                    <a class="github-button" href="https://github.com/CryptGodSon/cortex-reality-filter" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star CryptGodSon/cortex-reality-filter on GitHub">Star</a>
+                    <a class="github-button" href="https://github.com/CryptGodSon" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Follow @CryptGodSon on GitHub">Follow @CryptGodSon</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scroll-progress-bar"></div>
+    </div>
+
+    <main class="contact-container">
+        <div class="contact-header reveal-elem">
+            <h1 data-i18n="contact_title">Contact</h1>
+            <p data-i18n="contact_subtitle">Have a technical issue or inquiry? Fill out the form below and select the appropriate category.</p>
+        </div>
+
+        <div class="contact-form reveal-elem">
+            <div id="form-success" class="form-success" data-i18n="contact_success">
+                Your message has been sent. We will contact you soon!
+            </div>
+
+            <form id="contactForm" action="https://formsubmit.co/ajax/contact@cortexrealityfilter.com" method="POST">
+                <div class="form-group">
+                    <label for="email" data-i18n="form_email">Your email address</label>
+                    <input type="email" id="email" class="form-control" name="email" placeholder="adres@email.com"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="category" data-i18n="form_category">Inquiry category</label>
+                    <select id="category" class="form-control" name="category" required>
+                        <option value="" disabled selected data-i18n="opt_placeholder">-- Select category --</option>
+                        <option value="bug" data-i18n="opt_bug">Bug Report</option>
+                        <option value="feature" data-i18n="opt_feature">Feature Request</option>
+                        <option value="privacy" data-i18n="opt_privacy">Data Privacy Question</option>
+                        <option value="other" data-i18n="opt_other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message" data-i18n="form_message">Issue description or inquiry</label>
+                    <textarea id="message" class="form-control" name="message" data-i18n="form_message_ph"
+                        placeholder="Provide as many details as possible..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-primary submit-btn">
+                    <span data-i18n="form_btn">Send message</span>
+                    <i data-lucide="send"></i>
+                    <div class="btn-glow"></div>
+                </button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="../index.html" class="logo" style="text-decoration: none; color: inherit;">
+                    <span class="logo-icon"></span>
+                    <span class="logo-text">CORTEX</span>
+                </a>
+                <p data-i18n="footer_brand_desc">Personal firewall for your cognitive algorithm.</p>
+                <a href="mailto:contact@cortexrealityfilter.com" class="footer-email">
+                    <i data-lucide="mail"></i> contact@cortexrealityfilter.com
+                </a>
+            </div>
+            <div class="footer-links">
+                <h4 data-i18n="footer_tools">Verification</h4>
+                <a href="../index.html#features" data-i18n="feat3_title">AI Scanner</a>
+                <a href="../index.html#features" data-i18n="feat1_title">Truth/Fake</a>
+                <a href="../index.html#features" data-i18n="feat6_title">Focus Mode</a>
+            </div>
+            <div class="footer-links">
+                <h4 data-i18n="footer_project">Project</h4>
+                <a href="https://github.com/CryptGodSon" target="_blank" rel="noopener noreferrer" data-i18n="footer_about">About Me</a>
+                <a href="contact.html" data-i18n="footer_contact">Contact</a>
+            </div>
+            <div class="footer-links">
+                <h4 data-i18n="footer_legal">Legal</h4>
+                <a href="privacy.html" data-i18n="footer_privacy">Privacy Policy</a>
+                <a href="terms.html" data-i18n="footer_terms">Terms of Service</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer_copyright">&copy; 2026 Cortex Reality Filter</p>
+        </div>
+    </footer>
+
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="cookie-content">
+            <i data-lucide="cookie" class="cookie-icon"></i>
+            <div>
+                <strong data-i18n="cookie_title">Privacy by Design</strong>
+                <p data-i18n="cookie_desc">We use minimal local storage to save your language preferences. No third-party tracking.</p>
+            </div>
+        </div>
+        <button id="accept-cookies" class="btn-primary"><span data-i18n="cookie_btn">Got it</span></button>
+    </div>
+
+    <!-- Scripts -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="../script/i18n.js?v=20261010"></script>
+    <script src="../script/script.js?v=20261010"></script>
+    <script>
+        lucide.createIcons();
+
+        // Contact Form Submission Handler
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+                const submitBtn = this.querySelector('.submit-btn');
+                const btnSpan = submitBtn.querySelector('span');
+                if (submitBtn.disabled) return;
+                submitBtn.disabled = true;
+                const originalText = btnSpan.innerHTML;
+                btnSpan.innerHTML = '...';
+
+                fetch(this.action, {
+                    method: 'POST',
+                    body: new FormData(this),
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                })
+                .then(response => response.json().then(data => ({ ok: response.ok, data })))
+                .then(({ ok, data }) => {
+                    // FormSubmit zwraca success: "false" np. gdy adres nie jest jeszcze aktywowany
+                    if (!ok || String(data.success) !== 'true') throw new Error(data.message || 'Form error');
+                    document.getElementById('form-success').style.display = 'block';
+                    this.reset();
+                })
+                .catch(error => {
+                    alert(window.cortexT('contact_error') + '
+' + error.message);
+                })
+                .finally(() => {
+                    btnSpan.innerHTML = originalText;
+                    submitBtn.disabled = false;
+                });
+            });
+        }
+    </script>
+</body>
+</html>

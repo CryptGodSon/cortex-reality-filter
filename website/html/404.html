@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 | CORTEX</title>
+    <link rel="icon" type="image/png" href="/assets/icon128.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css?v=20261010">
+    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+    <style>
+        .error-container {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            color: var(--text-color);
+        }
+
+        .error-content {
+            max-width: 600px;
+        }
+
+        .error-code {
+            font-family: var(--font-heading);
+            font-size: 8rem;
+            line-height: 1;
+            font-weight: 900;
+            margin-bottom: 20px;
+            background: var(--brand-gradient);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 50px rgba(0, 255, 204, 0.3);
+            animation: glitch 3s infinite;
+        }
+
+        .error-title {
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: var(--text-primary);
+        }
+
+        .error-desc {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+
+        @keyframes glitch {
+            0% {
+                transform: translate(0)
+            }
+
+            20% {
+                transform: translate(-2px, 2px)
+            }
+
+            40% {
+                transform: translate(-2px, -2px)
+            }
+
+            60% {
+                transform: translate(2px, 2px)
+            }
+
+            80% {
+                transform: translate(2px, -2px)
+            }
+
+            100% {
+                transform: translate(0)
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Page Transition Overlay -->
+    <div class="page-transition"></div>
+
+    <div class="background-mesh"></div>
+    <div class="scanline"></div>
+
+    <main class="error-container">
+        <div class="error-content reveal-elem">
+            <div class="error-code" data-i18n="err_title">Error 404</div>
+            <h1 class="error-title decipher-text" data-text="Cognitive Path Not Found" data-i18n="err_subtitle">
+                Cognitive Path Not Found</h1>
+            <p class="error-desc" data-i18n="err_desc">The digital reality node you are looking for has been moved,
+                deleted, or never existed in the current simulation.</p>
+            <a href="/" class="btn-primary"
+                style="display: inline-flex; justify-content: center; width: auto;">
+                <i data-lucide="home"></i> <span data-i18n="err_btn">Return to Core Systems</span>
+            </a>
+
+            <div style="margin-top: 50px; display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                <div class="lang-switcher" style="display: inline-block; border: none; padding: 0;">
+                    <button type="button" class="lang-btn" aria-haspopup="true" aria-expanded="false">
+                        English <i data-lucide="chevron-down" style="width: 14px; height: 14px;"></i>
+                    </button>
+                    <div class="lang-dropdown">
+                        <a href="#" class="lang-option" data-lang="pl">Polski</a>
+                        <a href="#" class="lang-option active" data-lang="en">English</a>
+                    </div>
+                </div>
+                <div class="github-btns" style="border-left: none; padding-left: 0; margin-left: 0;">
+                    <a class="github-button" href="https://github.com/CryptGodSon/cortex-reality-filter" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star CryptGodSon/cortex-reality-filter on GitHub">Star</a>
+                    <a class="github-button" href="https://github.com/CryptGodSon" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Follow @CryptGodSon on GitHub">Follow @CryptGodSon</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="/script/i18n.js?v=20261010"></script>
+    <script src="/script/script.js?v=20261010"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
